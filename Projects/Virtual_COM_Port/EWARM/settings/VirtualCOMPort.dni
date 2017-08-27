@@ -1,0 +1,160 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[StLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+[JLinkDriver]
+CStepIntDis=_ 0
+LeaveTargetRunning=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[DebugChecksum]
+Checksum=1384782688
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CodeCoverage]
+Enabled=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2250000
+Prescaler=32
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[SfrWindow]
+Show=1 1
+Sort=4 0
+[struct_types]
+Fmt0=struct <Unnamed 7>-x	4	0
+Fmt1=struct <Unnamed 7>-y	4	0
+Fmt2=struct <Unnamed 7>-z	4	0
+[array_types]
+Fmt0=s32[2]	3	0
+Fmt1=signed short[2]	4	0
+Fmt2=u8[28]	5	0
+Fmt3=u8[2]	3	0
+Fmt4=u8[32]	4	0
+Fmt5=u8[8]	3	0
+Fmt6=u8[9]	4	0
+Fmt7=unsigned char[250]	4	0
+Fmt8=unsigned char[30]	3	0
+[watch_formats]
+Fmt0={W}42:Bluetooth_Buff	5	0
+Fmt1={W}42:float_buf	4	0
+[Trace1]
+Enabled=0
+ShowSource=1
+[Trace2]
+Enabled=0
+ShowSource=0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[PowerLog]
+Title_0=I0
+Symbol_0=0 4 0
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[DataLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+[EventLog]
+Title_0=Ch3
+Symbol_0=0 4 1
+Title_1=Ch2
+Symbol_1=0 4 1
+Title_2=Ch1
+Symbol_2=0 4 1
+Title_3=Ch0
+Symbol_3=0 4 1
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[InterruptLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+SumEnabled=0
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=1
+Graph=0
+Symbiont=0
+Exclusions=
+[CallStackLog]
+Enabled=0
+[CallStackStripe]
+ShowTiming=1
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Count=0
+[Aliases]
+A0=_ "C:\Users\Administrator\Desktop\virtual_com_port\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s" "J:\Blade_WorkBench\2.Robot_Bottom\1.src\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s"
+A1=_ "C:\Users\Administrator\Desktop\virtual_com_port\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c" ""
+A2=_ "C:\Users\Administrator\Desktop\virtual_com_port\Libraries\STM32_USB-FS-Device_Driver\src\usb_init.c" ""
+A3=_ "C:\Users\Administrator\Desktop\virtual_com_port\Projects\Virtual_COM_Port\BSP\rtc.c" ""
+A4=_ "D:\Blade\1.src_rev1.1A\1.src_rev1.1A\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s" "D:\Blade\1.src_rev1.1A\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s"
+A5=_ "D:\Blade\1.src_rev1.1A\1.src_rev1.1A\Projects\Virtual_COM_Port\src\main.c" "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A\Projects\Virtual_COM_Port\src\main.c"
+A6=_ "E:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A-car4B-16-1-14\Projects\Virtual_COM_Port\src\main.c" "E:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A-car\Projects\Virtual_COM_Port\src\main.c"
+A7=_ "H:\Users\fangxu\Desktop\原版\真的原版\1.src_rev1.1A-car4B-16-1-14\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s" "E:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A-car4B-16-1-14\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s"
+A8=_ "H:\Users\fangxu\Desktop\原版\真的原版\1.src_rev1.1A-car4B-16-1-14\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" ""
+A9=_ "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c" ""
+A10=_ "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c" ""
+A11=_ "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A\Projects\Virtual_COM_Port\src\main.c" ""
+A12=_ "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1\Projects\Virtual_COM_Port\src\main.c" "J:\Blade_WorkBench\2.Robot_Bottom\1.src_rev1.1A\Projects\Virtual_COM_Port\src\main.c"
+A13=_ "J:\Blade_WorkBench\2.Robot_Bottom\2.src_rev1.1\Libraries\CMSIS\Device\ST\STM32F10x\Source\Templates\iar\startup_stm32f10x_hd.s" ""
+Count=14
+SuppressDialog=1
